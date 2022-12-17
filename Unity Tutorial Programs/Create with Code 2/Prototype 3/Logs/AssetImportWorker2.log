@@ -15,7 +15,7 @@ C:/Users/ctsha/OneDrive/UnityRepo/UnityDevelopment/Unity Tutorial Programs/Creat
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-49273
+61393
 Successfully changed project path to: C:/Users/ctsha/OneDrive/UnityRepo/UnityDevelopment/Unity Tutorial Programs/Create with Code 2/Prototype 3
 C:/Users/ctsha/OneDrive/UnityRepo/UnityDevelopment/Unity Tutorial Programs/Create with Code 2/Prototype 3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/ctsha/OneDrive/UnityRepo/UnityDevelopment/Unity Tutorial Programs/Creat
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6072] Host "[IP] 192.168.111.48 [Port] 0 [Flags] 2 [Guid] 1852671530 [EditorId] 1852671530 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TL6CN249) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19428] Host "[IP] 172.16.5.81 [Port] 0 [Flags] 2 [Guid] 3191300018 [EditorId] 3191300018 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TL6CN249) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6072] Host "[IP] 192.168.111.48 [Port] 0 [Flags] 2 [Guid] 1852671530 [EditorId] 1852671530 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TL6CN249) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19428] Host "[IP] 172.16.5.81 [Port] 0 [Flags] 2 [Guid] 3191300018 [EditorId] 3191300018 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TL6CN249) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 189.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 135.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,50 +67,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.032146 seconds.
+Registered in 0.010592 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 122.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 209.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.074 seconds
+- Completed reload, in  1.412 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1075ms)
-		BeginReloadAssembly (123ms)
+	ReloadAssembly (1412ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (734ms)
-			LoadAssemblies (120ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1137ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (182ms)
+			SetupTypeCache (271ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (437ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (665ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (79ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (123ms)
+				InitializePlatformSupportModulesInManaged (149ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (210ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008486 seconds.
-Android Extension - Scanning For ADB Devices 5827 ms
+Registered in 0.018290 seconds.
+Android Extension - Scanning For ADB Devices 6579 ms
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\ctsha\OneDrive\UnityRepo\UnityDevelopment\Unity Tutorial Programs\Create with Code 2\Prototype 3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\ctsha\OneDrive\UnityRepo\UnityDevelopment\Unity Tutorial Programs\Create with Code 2\Prototype 3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
